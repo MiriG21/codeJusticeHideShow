@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Justice League</title>
+<style id="jsbin-css">
+body {
+  background-color: lightslategrey;
+  font-family: helvetica;
+  font-size: 18px;
+  color: white;
+  
+}
+
+h1{
+  font-family: helvetica;
+  text-align: center;
+  color: white;
+ 
+}
+h3{
+  text-align: center
+}
+
+.hidden{
+  display: none;
+}
+
+.justiceLeague {
+  color: pink;
+  text-decoration: underline;
+  transform: rotate(180deg);
+}
+</style>
+</head>
+<body>
+  <h1 id= "codeJustice">CODE OF JUSTICE</h1>
+  <h3 id="secondHeader" class= "justiceLeague">The Justice League</h3>
+
+  
+  <p class= "hidden" id="Batman" >There were seven original members of the Justice League: <br> Batman, Superman, Wonder Woman, The Flash, Aquaman, Green Lantern and Martian Manhunter.</p>
+ <p>Batman is known today for his stance on no killing, however he was originally a gun wielding vigilante who wouldn’t only shoot his enemies but was also found throwing them in tubs of acid, breaking their necks with a swift kick and hanging them from his Batplane.</p>
+  <p>Believe it or not, The Flash is actually faster than Superman! The reason is because though Superman is enhanced and powered by the yellow Sun, he still has to follow the laws of physics including friction. The Flash however is powered by the near magical “speed force” which allows him to go into speeds that others could never dream of. “Fastest man alive” is a cool title and a lot more catchy than “faster than faster than a speeding bullet”.</p>
+  
+  <script id="jsbin-javascript">
+console.clear()
+
+const h1=document.getElementById("codeJustice")
+const p=document.getElementById("Batman")
+const h3=document.getElementById("secondHeader")
+
+
+
+
+h1.addEventListener("click", ()=>{
+p.classList.toggle("hidden")
+h3.classList.toggle("justiceLeague")
+})
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">body {
+  background-color: lightslategrey;
+  font-family: helvetica;
+  font-size: 18px;
+  color: white;
+  
+}
+
+h1{
+  font-family: helvetica;
+  text-align: center;
+  color: white;
+ 
+}
+h3{
+  text-align: center
+}
+
+.hidden{
+  display: none;
+}
+
+.justiceLeague {
+  color: pink;
+  text-decoration: underline;
+  transform: rotate(180deg);
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">console.clear()
+
+const h1=document.getElementById("codeJustice")
+const p=document.getElementById("Batman")
+const h3=document.getElementById("secondHeader")
+
+
+
+
+h1.addEventListener("click", ()=>{
+p.classList.toggle("hidden")
+h3.classList.toggle("justiceLeague")
+})
+
+
+</script></body>
+</html>
